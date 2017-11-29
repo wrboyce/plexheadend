@@ -4,7 +4,7 @@ jobs:
   build:
     working_directory: /go/src/github.com/resin-io/sshproxy
     docker:
-      - image: golang:1.8.3
+      - image: golang:1.9.2
     steps:
       - checkout
       - setup_remote_docker
