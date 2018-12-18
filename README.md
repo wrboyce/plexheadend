@@ -3,6 +3,7 @@
 [![GoDoc](https://godoc.org/github.com/wrboyce/plexheadend?status.svg)](https://godoc.org/github.com/wrboyce/plexheadend)
 [![Go Report Card](https://goreportcard.com/badge/github.com/wrboyce/plexheadend)](https://goreportcard.com/report/github.com/wrboyce/plexheadend)
 [![CircleCI](https://circleci.com/gh/wrboyce/plexheadend.png?style=shield)](https://circleci.com/gh/wrboyce/plexheadend)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwrboyce%2Fplexheadend.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwrboyce%2Fplexheadend?ref=badge_shield)
 
 Proxy requests between PlexDVR and TVHeadend
 
@@ -87,3 +88,6 @@ services:
             - 32400:32400/udp
         restart: unless-stopped
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwrboyce%2Fplexheadend.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwrboyce%2Fplexheadend?ref=badge_large)
