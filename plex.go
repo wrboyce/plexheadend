@@ -76,7 +76,7 @@ func (p *plexHeadend) lineupHandler(w http.ResponseWriter, r *http.Request) {
 	for _, channel := range p.tvhGetChannels() {
 		if p.tag == "" || sliceContains(channel.Tags, p.tag) {
 			data = append(data,
-				lineupResponse{fmt.Sprintf("%d", channel.Number), channel.Name, channel.URL})
+				lineupResponse{fmt.Sprintf("%s", channel.Number), channel.Name, channel.URL})
 		}
 	}
 	json.NewEncoder(w).Encode(data)

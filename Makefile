@@ -1,4 +1,4 @@
-USERNAME ?= wrboyce
+USERNAME ?= papaschloss
 PROJECT ?= plexheadend
 EXECUTABLE ?= plexheadend
 DOCKER_IMAGE ?= $(USERNAME)/$(PROJECT)

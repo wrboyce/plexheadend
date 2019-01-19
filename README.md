@@ -1,24 +1,18 @@
 # plexheadend
 
-[![GoDoc](https://godoc.org/github.com/wrboyce/plexheadend?status.svg)](https://godoc.org/github.com/wrboyce/plexheadend)
-[![Go Report Card](https://goreportcard.com/badge/github.com/wrboyce/plexheadend)](https://goreportcard.com/report/github.com/wrboyce/plexheadend)
-[![CircleCI](https://circleci.com/gh/wrboyce/plexheadend.png?style=shield)](https://circleci.com/gh/wrboyce/plexheadend)
-
 Proxy requests between PlexDVR and TVHeadend
+
+This fixes an issue in github.com/wrboyce/plexheadend where OTA channels (like "2.1") won't work with plexheadend.
 
 ## Installation
 
-### Binary Release
-
-Download the latest release from the [downloads page](https://github.com/wrboyce/plexheadend/releases).
-
 ### Build from Source
 
-Download and build the project and its dependencies with the standard Go tooling, `go get github.com/wrboyce/plexheadend`.
+Download and build the project and its dependencies with the standard Go tooling, `go get github.com/papaschloss/plexheadend`.
 
 ### Docker Container
 
-There is also a Docker container made available for use at `wrboyce/plexheadend`.
+There is also a Docker container made available for use at `papaschloss/plexheadend`.
 
 ## Usage
 
@@ -69,7 +63,7 @@ services:
         restart: unless-stopped
         
     plexheadend:
-        image: wrboyce/plexheadend
+        image: papaschloss/plexheadend
         container_name: plexheadend
         environment:
             - PLEXHEADEND_TVH_HOST=tvheadend
