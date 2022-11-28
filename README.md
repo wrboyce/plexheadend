@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/wrboyce/plexheadend)](https://goreportcard.com/report/github.com/wrboyce/plexheadend)
 [![CircleCI](https://circleci.com/gh/wrboyce/plexheadend.png?style=shield)](https://circleci.com/gh/wrboyce/plexheadend)
 
-Proxy requests between PlexDVR and TVHeadend. Now supports non-numeric channel numbers (i.e. "21.1", per changes by papaschloss).
+Proxy requests between PlexDVR and TVHeadend
 
 ## Installation
 
