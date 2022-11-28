@@ -39,7 +39,7 @@ type apiChannelsResponse struct {
 type apiChannel struct {
 	UUID   string   `json:"uuid"`
 	Name   string   `json:"name"`
-	Number int      `json:"number"`
+	Number string   `json:"number"`
 	Tags   []string `json:"tags"`
 	URL    string   `json:"url"`
 }
